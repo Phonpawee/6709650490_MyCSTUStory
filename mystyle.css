@@ -4,6 +4,15 @@ html,body {
     padding: 0;
 }
 
+p,h2 {
+    font-family: "Itim", cursive;
+}
+
+.TH {
+    font-family: "Mitr", sans-serif;
+    font-size: 17px;
+}
+
 .top-header {
     background-color: #B1AFFF;
 }
@@ -12,13 +21,21 @@ html,body {
     color: white;
     padding: 10px;
     display: inline-block;
+}
+
+.other {
+    font-family: "Itim", cursive;
+    color: white;
+    position: relative;
+    left: 30px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .name {
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Itim", cursive;
+    margin: 10px;
 }
 
 .main-content {
@@ -26,21 +43,42 @@ html,body {
     margin: auto;
 }
 
+.background-box {
+    padding: 10px;
+    margin: 20px;
+    background-color: #FFFED3;
+    width: 700px;
+}
+
 .box {
     background-color: #FFFED3;
     padding: 10px;
-    margin: 15px;
+    margin: 20px;
+    width: 630px;
 }
 
-.vdo {
-    width: 200px;
+.vlog {
+    width: 600px;
+    padding: 20px;
 }
 
-.image {
-    width: 220px;
+.big {
+    background-color: #FFFED3;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
 }
-table {
-    border-color: #BBE9FF;
+
+.box2 {
+    background-color: #FFFED3;
+    padding: 20px;
+    width: 270px;
+}
+
+.vdo,.mypic {
+    padding: 10px;
+    width: 250px;
+    height: 370px;
 }
 
 .bottom-footer {
@@ -52,8 +90,9 @@ table {
 
 .IG {
     font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Itim", cursive;
     color: white;
+    text-decoration: none;
 }
 .igpic {
     width: 15px;
