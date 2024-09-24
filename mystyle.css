@@ -1,91 +1,105 @@
-html,body {
+html, body {
     background-color: #FFE9D0;
     margin: 0;
     padding: 0;
 }
 
-p,h2 {
+p,h1,h2,nav,main,span {
     font-family: "Itim", cursive;
 }
 
 .TH {
     font-family: "Mitr", sans-serif;
     font-size: 17px;
+    color: #333;
 }
 
-.top-header {
+header {
     background-color: #B1AFFF;
 }
 
-.homepage {
+.name {
     color: white;
     padding: 10px;
     display: inline-block;
 }
 
-.other {
-    font-family: "Itim", cursive;
-    color: white;
-    position: relative;
-    left: 30px;
-    padding: 10px;
+nav {
+    background-color: #FFB4B4;
+    text-align: center;
+    top: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px;
+
+}
+
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
-.name {
-    font-size: 20px;
-    font-family: "Itim", cursive;
-    margin: 10px;
+nav ul li a:hover {
+    color: #333;
 }
 
-.main-content {
-    max-width: 700px;
-    margin: auto;
+div {
+    background-color: #FFDEB4;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    padding-top: 20px;
+    position: sticky;
+    top: 0px;
 }
 
-.background-box {
-    padding: 10px;
+.mypic {
+    width: 30vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    background-color: #FFFED3;
-    width: 700px;
 }
 
-.box {
-    background-color: #FFFED3;
-    padding: 10px;
+.vdo {
+    width: 30vh;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    width: 630px;
+}
+
+main {
+    padding: 20px;
+    width: 72%;
+    float: right;
 }
 
 .vlog {
-    width: 600px;
+    width: 140vh;
     padding: 20px;
 }
 
-.big {
-    background-color: #FFFED3;
-    padding: 10px;
-    margin: 20px;
-    display: flex;
+.me {
+    color: #333;
+    padding-top: 15px;
 }
 
-.box2 {
-    background-color: #FFFED3;
-    padding: 20px;
-    width: 270px;
-}
-
-.vdo,.mypic {
-    padding: 10px;
-    width: 250px;
-    height: 370px;
-}
-
-.bottom-footer {
+footer {
     background-color: #B1AFFF;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-    color: white;
+    clear: both;
 }
 
 .IG {
@@ -93,7 +107,18 @@ p,h2 {
     font-family: "Itim", cursive;
     color: white;
     text-decoration: none;
+    display: inline-block;
+    margin: 0;
 }
+
 .igpic {
     width: 15px;
+}
+
+.year {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #FD8A8A;
+    padding: 10px;
+    width: 90px;
 }
