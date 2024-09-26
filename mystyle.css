@@ -8,7 +8,7 @@ p, h1, h2, h3, nav, main, span {
     font-family: "Itim", cursive;
 }
 
-.TH, article {
+.TH, article, p {
     font-family: "Mitr", sans-serif;
     font-size: 17px;
     color: #333;
@@ -224,4 +224,82 @@ article {
     display: block;
     float: left;
     color: #333;
+}
+
+.box3 {
+    background-color: #FDF7C3;
+    width: 920px;
+    height: 90vh;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.a {
+    box-shadow: 5px 6px gray;
+    background-color: white;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.box4 {
+    background-color: #FFB4B4;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 8px 9px gray;
+    width: 300px;
+    height: auto;
+    display: block;
+    float: left;
+    margin-left: 70px;
+}
+.image2 {
+    width: 260px;
+    height: 330px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    margin: 10px;
+}
+
+.future {
+    font-family: "Mitr", sans-serif;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 18px;
+    float: left;
+    color: #333;
+}
+
+.life {
+    background-color: #FFB4B4;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 8px 9px gray;
+    width: 300px;
+    height: 600px;
+    float: left;
+    margin-left: 70px;
+}
+
+.image3 {
+    width: 260px;
+    height: 330px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+    margin: 8px;
+}
+
+.box5 {
+    background-color: #FDF7C3;
+    width: 920px;
+    height: 250vh;
+    padding: 20px;
+    margin-top: 30px;
 }
