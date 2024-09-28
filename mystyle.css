@@ -98,11 +98,13 @@ main {
 .vlog {
     width: 920px;
     padding: 20px;
+    align-items: center;
 }
 
 .me {
     color: #333;
     padding-top: 15px;
+    align-items: center;
     
 }
 
@@ -154,6 +156,7 @@ h3 {
     height: 550px;
     padding: 20px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .box2 {
@@ -187,6 +190,7 @@ article {
     height: 740px;
     padding: 20px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .box2butdiff {
@@ -215,6 +219,7 @@ article {
     height: 400px;
     padding: 20px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .si {
@@ -232,6 +237,7 @@ article {
     height: 90vh;
     padding: 20px;
     margin-top: 30px;
+    align-items: center;
 }
 
 .a {
@@ -302,4 +308,5 @@ article {
     height: 250vh;
     padding: 20px;
     margin-top: 30px;
+    align-items: center;
 }
